@@ -33,10 +33,23 @@ console.log();
 //         n++;
 // };
 
-let n = 1
+// let n = 1
+// while (n < 20) {
+//     if ((1 == (n / n) && (n == (n / 1))) || (n / (Math.random() * 20) != n)) {
+//     console.log(`Yes, ${n} is a Prime Number`);}
+//      else {(`No, ${n} is not a Prime Number`)}
+//         n++;
+// };
+
+let n = 1;
+let x = (1 == (n / n) && (n == (n / 1)));
+let y = (n / (Math.random() * 20) != n);
 while (n < 20) {
-    if ((1 == (n / n) && (n == (n / 1))) || (n / (Math.random() * 20) != n)) {
+    if (x || y) {
     console.log(`Yes, ${n} is a Prime Number`);}
      else {(`No, ${n} is not a Prime Number`)}
         n++;
 };
+
+console.log(x);
+console.log(y);
