@@ -455,3 +455,8 @@ const pet = {
         console.log (`${this.name} is eating / drinking`);
 }}
 pet.eat();
+
+let word = "Pneumonoultramicroscopicsilicovolcanoconiosis"
+let wordR = word.split('').reverse().join('');
+
+console.log(`${word} reversed is ${wordR}`);
