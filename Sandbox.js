@@ -42,10 +42,10 @@ console.log();
 // };
 
 let n = 1;
-let x = (1 == (n / n) && (n == (n / 1)));
+let x = (1 == (n / n) && n == (n / 1));
 let y = (n / (Math.random() * 20) != n);
 while (n < 20) {
-    if (x || y) {
+    if (x == y) {
     console.log(`Yes, ${n} is a Prime Number`);}
      else {(`No, ${n} is not a Prime Number`)}
         n++;
